@@ -1,0 +1,14 @@
+.background-home{
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+}
+.px-10{
+    padding: 0 10rem;
+}
+
+@media (max-width: 575px) {
+    .px-10{
+        padding: 0 2rem;
+    }
+}

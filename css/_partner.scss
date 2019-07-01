@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap');
+
+$font-lato: 'Lato', sans-serif;
+$font-montserrat: 'Montserrat', sans-serif;
+
+.background-partner{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+.color-partner{
+    background-color: #ececec;
+}
+.py-10{
+    padding: 7rem 0;
+}
+.font-sm{
+    font-family: $font-lato;
+    font-weight: normal;
+    font-size: 12px;
+}
+[class^="button-"]{
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+.fa-phone-alt,
+.fa-facebook-f,
+.fa-instagram{
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 14px;
+}
+.button-partners{
+    margin: 50px 0;
+    border: 1px solid #6D00E8;
+    color: #6D00E8;
+    &:hover{
+        background-color: #6D00E8;
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
+.bg-dark{
+    background-color: #000000 !important;
+}
+.logo-footer{
+    height: 1.5rem;
+}
+@media (min-width:0px) and (max-width: 575px) {
+    .img-partnes{
+        margin: 40px 0 !important;
+    }
+    .element-center{
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+

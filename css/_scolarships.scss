@@ -1,0 +1,60 @@
+
+.background-scolarships{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+}
+.card-scolarship{
+    width: 40%;
+    height: 175px;
+    background-color: #ececec;
+    margin: 20px 15px;
+    &:hover{
+        h6{
+            color: #6D00E8;
+        }
+    }
+}
+.button-scolarship{
+    border: 1px solid #6D00E8;
+    color: #6D00E8;
+    padding: 5px 10px;
+    position: relative;
+    &:hover{
+        background-color: #6D00E8;
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .hidden-element{
+        display: none;
+    }
+    .card-scolarship{
+        width: 90%;
+        height: 200px;
+        margin: 20px 0;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .hidden-element{
+        display: none;
+    }
+    .card-scolarship{
+        width: 80%;
+        height: 200px;
+        margin: 20px 0;
+    }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .hidden-element{
+        display: none;
+    }
+    .card-scolarship{
+        width: 40%;
+        height: 200px;
+        margin: 20px 20px;
+    }
+}
