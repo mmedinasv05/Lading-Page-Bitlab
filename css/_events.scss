@@ -6,7 +6,8 @@ $font-montserrat: 'Montserrat', sans-serif;
 .background-events{
     width: 100%;
     height: 100vh;
-    background-color: cyan;
+    background-image: url(../img/Events-background-min.jpg);
+    background-size: cover;
 }
 .mtb-10{
     margin: 10rem 0;
