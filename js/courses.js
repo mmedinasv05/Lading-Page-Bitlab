@@ -1,18 +1,1 @@
-$(document).ready(function(){
-    $("#software").click(function(){
-        $(".card").hide();
-        $(".software").show();
-    });
-    $("#strategy").click(function(){
-        $(".card").hide();
-        $(".strategy").show();
-    });
-    $("#uxui").click(function(){
-        $(".card").hide();
-        $(".uxui").show();
-    });
-    $("#entrepreneur").click(function(){
-        $(".card").hide();
-        $(".entrepreneur").show();
-    });
-});
+$(document).ready(function(){$("#software").click(function(){$(".card").hide(),$(".software").show()}),$("#strategy").click(function(){$(".card").hide(),$(".strategy").show()}),$("#uxui").click(function(){$(".card").hide(),$(".uxui").show()}),$("#entrepreneur").click(function(){$(".card").hide(),$(".entrepreneur").show()}),$("#chk-box-gratis").prop("checked")&&console.log("Checkbox seleccionado")});

@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta data-hid="description" name="description" content="Academia de entrenamiento en contenido de vanguardia del mundo digital. Puedes acceder a cursos y talleres en las áreas de desarrollo de software, estrategia digital, diseño y emprendimiento." data-n-head="true">
+    <meta data-hid="og:title" property="og:title" content="BITLAB - Academia de entrenamiento" data-n-head="true">
+    <meta data-hid="og:description" property="og:description" content="Academia de entrenamiento en contenido de vanguardia del mundo digital. Puedes acceder a cursos y talleres en las áreas de desarrollo de software, estrategia digital, diseño y emprendimiento." data-n-head="true">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="./img/favicon.ico">
@@ -9,13 +12,13 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/v4-shims.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>BITLAB - Digital Skills Academy</title>
+    <title data-n-head="true">BITLAB - Digital Skills Academy</title>
 </head>
 <body>
     <!--START MENU-->
     <header>
         <div class="U-menu-bar-courses">
-            <a href="#" class="U-btn-menu">
+            <a href="index.html" class="U-btn-menu">
                 <img src="./img/logo-fullcolor.svg" id="logo-bitlab3" class="logo" alt="Logo Bitlab">
             </a>
             <i class="fas fa-bars" id="show-menu-courses"></i>
@@ -71,7 +74,10 @@
                     encuentra el que <br> deseas realizar e inscríbete y aprende de la mano 
                     de profesionales en el área.</p>
             </div>
-            <div class="col-lg-6 col-sm-12"></div>
+            <div class="col-lg-6 col-sm-12 d-flex justify-content-end align-items-center">
+                <input type="checkbox" class="chk-box-gratis" id="chk-box-gratis"> Gratis
+                <input type="checkbox" class="chk-box-costo" id="costo"> Pagado
+            </div>
         </div>
     </section>
 
@@ -79,7 +85,7 @@
         <div class="row">
             <div class="col-12 d-flex justify-content-center align-items-center flex-wrap">
                     <article class="card software">
-                            <a href="#">
+                            <a href="frontend.html">
                         <div class="card-image">
                             <img src="./img/development-min.jpg" class="img-fluid" alt="Frontend">
                         </div>
@@ -99,7 +105,7 @@
                         </div></a>
                     </article>
                 <article class="card software">
-                    <a href="#">
+                    <a href="backend.html">
                         <div class="card-image">
                             <img src="./img/backend-min.jpg" class="img-fluid" alt="Backend">
                         </div>
@@ -121,7 +127,7 @@
                     </a>
                 </article>
                 <article class="card entrepreneur">
-                    <a href="#">
+                    <a href="entrepreneurship.html">
                         <div class="card-image">
                             <img src="./img/emprendimiento-min.jpg" class="img-fluid" alt="Emprendimiento">
                         </div>
@@ -142,7 +148,7 @@
                     </a>
                 </article>
                 <article class="card strategy">
-                    <a href="#">
+                    <a href="strategy.html">
                         <div class="card-image">
                             <img src="./img/estrategia-digital-elevada-min.jpg" class="img-fluid" alt="Estrategia digital">
                         </div>
@@ -163,7 +169,7 @@
                     </a>
                 </article>
                 <article class="card software">
-                    <a href="#">
+                    <a href="intro-programming.html">
                         <div class="card-image">
                             <img src="./img/development-min.jpg" class="img-fluid" alt="Introduccion a la programacion">
                         </div>
@@ -184,7 +190,7 @@
                     </a>
                 </article>
                 <article class="card strategy">
-                    <a href="#">
+                    <a href="intro-strategy.html">
                         <div class="card-image">
                             <img src="./img/strategy-min.jpg" class="img-fluid" alt="Introduccion a la Estrategia Digital">
                         </div>
@@ -205,7 +211,7 @@
                     </a>
                 </article>
                 <article class="card entrepreneur">
-                    <a href="#">
+                    <a href="intro-entrepreneurship.html">
                         <div class="card-image">
                             <img src="./img/entrepreneurship-min.jpg" class="img-fluid" alt="Introduccion al emprendimiento">
                         </div>
@@ -226,7 +232,7 @@
                     </a>
                 </article>
                 <article class="card uxui">
-                    <a href="#">
+                    <a href="intro-ux-ui.html">
                         <div class="card-image">
                             <img src="./img/design-min.jpg" class="img-fluid" alt="Introduccion al diseño UX/UI">
                         </div>
@@ -271,5 +277,6 @@
   crossorigin="anonymous"></script>
   <script src="./js/courses.js"></script>
   <script src="./js/script.js"></script>
+  <script src="./js/courses.js"></script>
 </body>
 </html>

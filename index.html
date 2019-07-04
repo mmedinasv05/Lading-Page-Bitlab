@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta data-hid="description" name="description" content="Academia de entrenamiento en contenido de vanguardia del mundo digital. Puedes acceder a cursos y talleres en las áreas de desarrollo de software, estrategia digital, diseño y emprendimiento." data-n-head="true">
+    <meta data-hid="og:title" property="og:title" content="BITLAB - Academia de entrenamiento" data-n-head="true">
+    <meta data-hid="og:description" property="og:description" content="Academia de entrenamiento en contenido de vanguardia del mundo digital. Puedes acceder a cursos y talleres en las áreas de desarrollo de software, estrategia digital, diseño y emprendimiento." data-n-head="true">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="./img/favicon.ico">
@@ -9,7 +12,7 @@
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/v4-shims.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>BITLAB - Digital Skills Academy</title>
+    <title data-n-head="true">BITLAB - Digital Skills Academy</title>
 </head>
 <body>
     <!--START MENU-->
@@ -39,7 +42,12 @@
     </header>
     <!--END MENU-->
 
-    <section class="background-home"></section>  
+    <section class="background-home">
+        <img src="./img/t-hero-1.svg" class="t-hero-1" alt="t-hero 1">
+        <img src="./img/skills.svg" class="t-hero-2" alt="Skill">
+        <img src="./img/t-hero-3.svg" class="t-hero-3" alt="t-hero 3">
+        <a href="#Go-Course" class="btn-page-main">Encuentra tu curso</a>
+    </section>  
 
     <section class="container">
         <div class="row">
@@ -47,8 +55,8 @@
                 <h2 class="pt-5 pb-3 text-center font-weight-bold">Aprende de la mano de <br>
                         profesionales</h2>
                 <p class="px-10 pb-5 text-center">Somos una academia de entrenamiento para trabajos en el mundo digital. En BitLab puedes 
-                    acceder a cursos y talleres en las áreas de desarrollo de software, estrategia 
-                    digital, diseño y emprendimiento. Nuestras clases son desarrolladas por 
+                    acceder a cursos y talleres en las áreas de desarrollo <span class="span"> de software, estrategia 
+                    digital, diseño y emprendimiento.</span> Nuestras clases son desarrolladas por 
                     profesionales y expertos del rubro brindando educación integral con un enfoque 
                     profesional y práctico.
                 </p>
@@ -56,7 +64,7 @@
         </div>
     </section>
 
-    <section class="container">
+    <section class="container-fluid">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center align-items-center flex-column">
                 <h2 class="pt-3 pb-3 text-center font-weight-bold">Te ofrecemos</h2>
@@ -94,6 +102,160 @@
             </div>
         </div>
     </section>
+
+    <section class="container-fluid" id="Go-Course">
+        <div class="row w-full">
+            <div class="col-lg-2 col-sm-12 position-relative element-hide">
+                <img src="./img/learn.jpg" class="img-fluid-learn element-hide" alt="">
+            </div>
+            <div class="w-full color-partner col-lg-10 col-sm-12 position-relative">
+                <h3 class="font-weight-bold title-learn">¿Qué estás interesado 
+                    <br>    en aprender?</h3>
+                <div class="card-learn-one">
+                    <img src="./img/software.svg" class="icon-learn" alt="">
+                    <h6 class="font-weight-bold">Desarrollo de <br> software</h6>
+                </div>
+                <div class="card-learn-two">
+                    <img src="./img/estrategia.svg" class="icon-learn" alt="">
+                    <h6 class="font-weight-bold">Estrategia Digital</h6>
+                </div>
+                <div class="card-learn-three">
+                    <img src="./img/diseño.svg" class="icon-learn" alt="">
+                    <h6 class="font-weight-bold">Diseño</h6>
+                </div>
+                <div class="card-learn-four">
+                    <img src="./img/emprendimiento.svg" class="icon-learn" alt="">
+                    <h6 class="font-weight-bold">Emprendimiento</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-lg12 col-md-12 col-sm-12">
+                <h2 class="py-5 pl-3 font-weight-bold">Cursos disponibles</h2>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center align-items-center flex-wrap">
+                <article class="card software">
+                    <a href="#">
+                        <div class="card-image">
+                            <img src="./img/development-min.jpg" class="img-fluid" alt="Introduccion a la programacion">
+                        </div>
+                        <div class="card-content-text">
+                            <div class="card-text">
+                                <h5 class="py-4 pl-3 text-dark">Introducción a la programación</h5>
+                                <p class="font-sm pl-3 text-dark font-weight-bold">Roxana González</p>
+                                <p class="font-sm pl-3 text-dark">
+                                    Aprenderás conceptos básicos de programación y herramientas para entrar al 
+                                    mundo del desarrollo web y móvil. Este curso es requisito para personas con...
+                                </p>
+                            </div>
+                            <div class="card-information">
+                                <p class="font-sm text-dark mb-0 font-weight-bold ml-3">10 horas</p>
+                                <a href="#" target="_blank" class="button-courses mr-3">ver mas</a>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="card strategy">
+                    <a href="#">
+                        <div class="card-image">
+                            <img src="./img/strategy-min.jpg" class="img-fluid" alt="Introduccion a la Estrategia Digital">
+                        </div>
+                        <div class="card-content-text">
+                            <div class="card-text">
+                                <h5 class="py-4 pl-3 text-dark">Introducción a la Estrategia Digital</h5>
+                                <p class="font-sm pl-3 text-dark font-weight-bold">Fabiola León</p>
+                                <p class="font-sm pl-3 text-dark">
+                                    Aprende conceptos básicos, los medios digitales de tendencia, lo básico de un 
+                                    plan de pauta, buenas prácticas, hacks y herramientas para iniciar u opt...
+                                </p>
+                            </div>
+                            <div class="card-information">
+                                <p class="font-sm text-dark mb-0 font-weight-bold ml-3">4 horas</p>
+                                <a href="#" target="_blank" class="button-courses mr-3">ver mas</a>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="card entrepreneur">
+                    <a href="#">
+                        <div class="card-image">
+                            <img src="./img/entrepreneurship-min.jpg" class="img-fluid" alt="Introduccion al emprendimiento">
+                        </div>
+                        <div class="card-content-text">
+                            <div class="card-text">
+                                <h5 class="py-4 pl-3 text-dark">Introducción al emprendimiento</h5>
+                                <p class="font-sm pl-3 text-dark font-weight-bold">Carlos Moreno</p>
+                                <p class="font-sm pl-3 text-dark">
+                                    Descubre el camino para emprender en El Salvador desde construir tu modelo 
+                                    de negocio, herramientas, aliados y opciones de fondeo hasta cómo preparar ...
+                                </p>
+                            </div>
+                            <div class="card-information">
+                                <p class="font-sm text-dark mb-0 font-weight-bold ml-3">4 horas</p>
+                                <a href="#" target="_blank" class="button-courses mr-3">ver mas</a>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="card uxui">
+                    <a href="#">
+                        <div class="card-image">
+                            <img src="./img/design-min.jpg" class="img-fluid" alt="Introduccion al diseño UX/UI">
+                        </div>
+                        <div class="card-content-text">
+                            <div class="card-text">
+                                <h5 class="py-4 pl-3 text-dark">Introducción al diseño UX/UI</h5>
+                                <p class="font-sm pl-3 text-dark font-weight-bold">Luis Pinto</p>
+                                <p class="font-sm pl-3 text-dark">
+                                    Conoceras la diferencia entre la Experiencia de Usuario y la Interfaz de Usuario, 
+                                    entenderas el significado de cada uno, y aprenderás procesos y tips ...
+                                </p>
+                            </div>
+                            <div class="card-information">
+                                <p class="font-sm text-dark mb-0 font-weight-bold ml-3">4 horas</p>
+                                <a href="#" target="_blank" class="button-courses mr-3">ver mas</a>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-12 py-5">
+                    
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid over-hidden">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 py-5 position-relative w-full-shape bg-shape">
+                <img src="./img/shape-events-min.png" class="img-fluid-shape element-hide" alt="">
+                <img src="./img/evento.jpg" class="image-event" alt="Evento">
+                <h2 class="title-news">Noticias</h2>
+                <h2 class="title-event-main">Girls In Tech - BOOTCAMP</h2>
+                <p class="date-event">9:30 a.m. | 8 de marzo de 2019</p>
+                <p class="p-event-main">¡Reunimos a talento salvadoreños en la industria tecnológica para celebrar el Día Internacional de la Mujer! Inspiramos a más de cien niñas, jóvenes y mujeres a que conozcan más sobre lo que pueden llegar a ser siendo parte de la comunidad #GirlsInTech.</p>
+                <a href="https://www.facebook.com/media/set/?set=a.366829314161824&type=1&l=0f87f56acd" target="_blank" class="button-event-main">ver mas</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container"><div class="row"><div class="col-12 py-5"></div></div></section>
+
+
 
     <footer class="container-fluid bg-dark">
         <div class="row">

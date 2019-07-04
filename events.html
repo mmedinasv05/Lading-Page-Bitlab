@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta data-hid="description" name="description" content="Academia de entrenamiento en contenido de vanguardia del mundo digital. Puedes acceder a cursos y talleres en las áreas de desarrollo de software, estrategia digital, diseño y emprendimiento." data-n-head="true">
+    <meta data-hid="og:title" property="og:title" content="BITLAB - Academia de entrenamiento" data-n-head="true">
+    <meta data-hid="og:description" property="og:description" content="Academia de entrenamiento en contenido de vanguardia del mundo digital. Puedes acceder a cursos y talleres en las áreas de desarrollo de software, estrategia digital, diseño y emprendimiento." data-n-head="true">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="./img/favicon.ico">
@@ -9,7 +12,7 @@
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/v4-shims.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>BITLAB - Digital Skills Academy</title>
+    <title data-n-head="true">BITLAB - Digital Skills Academy</title>
 </head>
 <body>
     <!--START MENU-->
@@ -39,7 +42,10 @@
     </header>
     <!--END MENU-->
 
-    <section class="background-events"></section>  
+    <section class="background-events">
+        <h1 class="title-page-main">More skills</h1>
+        <p class="p-events">Nuestros alumnos tienen entradas gratis e invitación a eventos <br> privados y exclusivos.</p>
+    </section>  
 
     <section class="container">
         <div class="row my-5 section-img-hover">
@@ -55,7 +61,7 @@
                     de ellas para que conozcas más sobre lo que puedes llegar a ser y lograr.
                 </p>
                 <p class="font-sm pl-3 pb-5">8 marzo 2019 / 9:00am - 5:30pm</p>
-                <a href="#" target="_blank" class="button-events">ver mas</a>
+                <a href="https://girlsintech.bitlab.edu.sv/" target="_blank" class="button-events">ver mas</a>
             </div>
             <div class="col-sm-12 col-lg-5 section-img-hover">
                 <img src="./img/img-evento-min.jpg" class="img-fluid" alt="">
@@ -67,10 +73,10 @@
         <form class="form-event d-flex justify-content-center align-items-center flex-column">
             <h6 class="font-weight-bold mb-4">Suscribete ahora</h6>
             <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
+                <input type="text" class="form-control" required id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
             </div>
             <div class="form-group">
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo">
+                <input type="email" class="form-control" required id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo">
             </div>
             <div class="form-group">
                 <select class="form-control" id="exampleFormControlSelect1">
@@ -81,7 +87,7 @@
                     <option>Emprendimiento</option>
                 </select>
             </div>
-            <a href="#" target="_blank" class="button-events-login">Registrarme</a>
+            <button type="submit" class="button-events-login">Registrarme</button>
         </form>
         <p>Enterate de primera mano de todo lo que <br> BitLab tiene para ti.</p>
         <h3 class="title-events">Aprende de la mano de los <br> mejores</h3>
